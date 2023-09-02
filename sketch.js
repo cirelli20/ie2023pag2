@@ -10,7 +10,7 @@ function setup() {
 
   // Crear un enlace a una página externa
   let enlaceInterno = createA('https://cirelli20.github.io/tarea2/', '- Tarea 2: cirelli20.github.io/tarea2/');
-  enlaceInterno.position(180, 660); //80ablecer la posición del enlace
+  enlaceInterno.position(290, 660); //80ablecer la posición del enlace
   enlaceInterno.style('font-size', '20px'); // Establecer el tamaño de fuente
   enlaceInterno.style('color', 'ORANGE'); // Establecer el color del enlace
 
