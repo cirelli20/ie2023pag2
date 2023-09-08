@@ -1,10 +1,4 @@
-function setup() {
-  createCanvas(400, 400);
-}
 
-function draw() {
-  background(220);
-}
 let angle = 0;
 let spacing = 5;
 let offset = 0;
@@ -49,27 +43,8 @@ function draw() {
   textAlign(CENTER, TOP);
   fill(1, 2);
   noStroke ()
-  text("Los astros son rondas de niños jugando la Tierra a espiar... ", width / 30, height / 5);
-
-  textSize(20);
-  textStyle();
-  fill(3, 2);
-  textAlign(CENTER, 10);
-  textWrap(WORD);
-  text("Los trigos son talles de niñas jugando a ondular..., a ondular...", width / 30, height / 4);
-
-  textSize(20);
-
-  textAlign(CENTER, 10);
-  fill(3, 2);
-  textWrap(WORD);
-  text("Los ríos son rondas de niños jugando a encontrarse en el mar...", width / 30, height / 3);
-
-  textSize(20);
-  fill(3, 2);
-  textAlign(CENTER, 10);
-  textWrap(WORD);
-  text("Las olas son rondas de niñas jugando la Tierra a abrazar..", width / 30, height / 3.5);
+text (Los astros son rondas de niños jugando la Tierra a espiar... \n Los trigos son talles de niñas jugando a ondular..., a ondular..
+\n Los ríos son rondas de niños jugando a encontrarse en el mar.. \n Las olas son rondas de niñas jugando la Tierra a abrazar..\n ,
+(width / 30, height / 5) )
 }
-let image
-loadImage ()
+
