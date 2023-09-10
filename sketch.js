@@ -1,4 +1,3 @@
-
 let angle = 0;
 let spacing = 5;
 let offset = 0;
@@ -10,15 +9,10 @@ function setup() {
   background(255, 255, 204); // Color amarillo claro
 
   // Crear un enlace a una página externa
-  let enlaceInterno1 = createA('https://cirelli20.github.io/tarea2/', '- Tarea 2: cirelli20.github.io/tarea2/');
-  enlaceInterno1.position(290, 660); //80ablecer la posición del enlace
-  enlaceInterno1.style('font-size', '20px'); // Establecer el tamaño de fuente
-  enlaceInterno1.style('color', 'ORANGE'); // Establecer el color del enlace
-  // Crear un enlace a una página externa
-  let enlaceInterno2 = createA('https://cirelli20.github.io/tarea-3/', '- Tarea 3:cirelli20.github.io/tarea-3/ ');
-  enlaceInterno2.position(290, 700); //80ablecer la posición del enlace
-  enlaceInterno2.style('font-size', '20px'); // Establecer el tamaño de fuente
-  enlaceInterno2.style('color', 'ORANGE'); // Establecer el color del enlace
+  let enlaceInterno = createA('https://cirelli20.github.io/tarea2/', '- Tarea 2: cirelli20.github.io/tarea2/');
+  enlaceInterno.position(180, 660); //80ablecer la posición del enlace
+  enlaceInterno.style('font-size', '20px'); // Establecer el tamaño de fuente
+  enlaceInterno.style('color', 'ORANGE'); // Establecer el color del enlace
 
   // Texto "ENCARGOS"
   textSize(24);
@@ -60,12 +54,6 @@ function draw() {
   // Texto y estilo...
   textSize(20);
   fill(1, 2);
-  noStroke ()
-text (Los astros son rondas de niños jugando la Tierra a espiar... \n Los trigos son talles de niñas jugando a ondular..., a ondular..
-\n Los ríos son rondas de niños jugando a encontrarse en el mar.. \n Las olas son rondas de niñas jugando la Tierra a abrazar..\n ,
-(width / 30, height / 5) )
-}
-
   noStroke();
   textStyle(ITALIC);
   text("Los astros son rondas de niños \n jugando la Tierra a espiar...\n Los trigos son talles de niñas \n jugando a ondular... a ondular...\n   \n Los ríos son rondas de niños \n jugando a encontrarse en el mar... \n Las olas son rondas de niñas \n jugando la Tierra a abrazar..", width / 60, height / 7);
