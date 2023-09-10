@@ -1,3 +1,4 @@
+//primeros parametros del dibujo
 let angle = 0;
 let spacing = 5;
 let offset = 0;
@@ -5,7 +6,7 @@ let trail = [];
 let figuraEnMovimiento = true; // Variable para controlar si la figura se mueve
 
 function setup() {
-  createCanvas(1000, 2000);
+  createCanvas(1000, 2000); //area de trabajo
   background(255, 255, 204); // Color amarillo claro
 
   // Crear un enlace a una página externa
