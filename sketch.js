@@ -19,7 +19,11 @@ function setup() {
     enlaceInterno2.position(290, 700); //80ablecer la posición del enlace
     enlaceInterno2.style('font-size', '20px'); // Establecer el tamaño de fuente
     enlaceInterno2.style('color', 'ORANGE'); // Establecer el color del enlace
-
+   // Crear un enlace a la tarea 4
+   let enlaceInterno3 = createA('https://cirelli20.github.io/tarea-4/', '- Tarea 4:cirelli20.github.io/tarea-4/ ');
+   enlaceInterno3.position(290, 740); //80ablecer la posición del enlace
+   enlaceInterno3.style('font-size', '20px'); // Establecer el tamaño de fuente
+   enlaceInterno3.style('color', 'ORANGE'); // Establecer el color del enlace
   // Texto "ENCARGOS"
   textSize(24);
   fill(0);
