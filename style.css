@@ -1,10 +1,8 @@
-
-body{
-  background-color: rgb(206,206,75);
-}
- 
-  
-canvas {
- display: block;
- 
+/* Estilo para el fondo de la página con degradado de colores */
+body {
+  background: linear-gradient(to bottom, #C9EEC8, #F8C8C1, #C5BBF5); /* Degradado de colores vertical */
+  font-family: Arial, sans-serif; /* Tipo de fuente para el texto en la página */
+  color: #333; /* Color de texto principal */
+  margin: 20px auto;
+  padding: 0; /* Elimina el relleno predeterminado en el cuerpo de la página */
 }
